@@ -5,13 +5,13 @@ variable "sample_string" {
 ## Shell Scripting equivalent sample_string="Hello World"
 
 variable "sample_number" {
-  value = 100
+  default = 100
 }
 
 # 10.6 is also a number in terraform
 
 variable "sample_boolean" {
-  value = true
+  default = true
 }
 
 # Booleans are true or false
