@@ -13,8 +13,10 @@ variable "sample1" {
 }
 
 variable "sample2" {
-  xyz = 100
-  abc = 200
+  default = {
+    xyz = 100
+    abc = 200
+  }
 }
 ## Print first value like var.sample[0] with a function
 
